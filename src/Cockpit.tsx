@@ -3,7 +3,7 @@ import {BrowserRouter, Route, NavLink, Switch} from 'react-router-dom'
 
 import Home from './00-home/Home'
 import List from './01-movie-list/containers/List'
-import Pwa from './02-pwa/Pwa'
+import Pwa from './02-github-portfolio-pwa/containers/Pwa'
 import {IProject} from './interfaces'
 import './Cockpit.css'
 
@@ -16,7 +16,7 @@ class Cockpit extends Component {
     state: IState = {
         projects: [
             {nr: '01', title: 'Movie List', component: 'List'},
-            {nr: '02', title: 'Progressive Web Application (PWA)', component: 'Pwa'}
+            {nr: '02', title: 'Github Portfolio (PWA)', component: 'Pwa'}
         ]
     }
 
