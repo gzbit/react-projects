@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import logo from '../assets/home.png'
-import Header from '../components/Header/Header'
+import Header from '../../common/Header/Header'
 import Profile from './Profile';
 
 class Pwa extends Component {

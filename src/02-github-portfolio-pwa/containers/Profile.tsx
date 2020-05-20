@@ -60,13 +60,10 @@ class Profile extends Component {
         axios
             .get('gzbit')
             .then(response => {
-                //this.setState({data: response.data, loading: false})
-                console.log(response)
                 const data = response.data
                 axios
                     .get('gzbit/repos')
                     .then((r: any) => {
-                        console.log(r)
                         const repositories = r.data.map((repository: any) => ({
                             label: repository.name,
                             value: <Link url={repository.html_url} title="GitHub" />

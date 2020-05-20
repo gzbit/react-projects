@@ -1,0 +1,36 @@
+.Alert {
+  text-align: center;
+}
+
+.Feed {
+  width: 90%;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+ 
+  margin: 5%;
+}
+
+.Fedd .CardLink {
+  text-decoration: none;
+  color: inherit;
+}
+
+.Feed .PaginationBar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Feed .PaginationLink {
+  padding: 1%;
+  background: lightBlue;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.Feed a {
+  text-decoration: none;
+
+}

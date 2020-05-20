@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Card from '../components/Card'
+import Header from '../../common/Header/Header'
 import Json from '../assets/data.json' 
 import './List.css'
 
@@ -56,7 +57,7 @@ export class List extends Component {
         
         return (
             <div>
-                <h1>Movie List</h1>
+                <Header title="Movie List" logo='' />
                 <div className="List">
                     {cards}
                 </div>
